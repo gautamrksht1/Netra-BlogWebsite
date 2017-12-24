@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+.GapTop{
+    margin-top: 5%;
+}
+.GapBottom{
+    margin-bottom: 5.3em;
+}
+.WebsiteTitle{
+    font-weight: bold;
+font-size:150%;
+}
+html {
+    height: 100%;
+  }
+
+body {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+}  
+.content{
+    flex: 1 0 auto;
+}
+.CustomStyle{
+    background-color: hsl(186, 56%, 89%);
+    border-radius:10px;
+    
+}
+.center-div
+{
+     margin: 0 auto;
+     }
+.footerFontColor{
+    color: blue;
+}
+.footerFontColor>ul>li>a{
+    color: blue;
+}
+.footerTitlesColor{
+ color: green;
+ 
+}
+.footerCopyRight{
+    /* text-align:center; */
+    padding:5px;
+    color:greenyellow;
+    font-weight: bold;
+    background-color:teal;
+}
+.footerCopyRight>{
+    color:yellow;
+    
+}
+  .footer {
+    flex-shrink: 0; 
+    
+  }  
+  .footerLinks{
+    background-color: hsl(193, 82%, 96%);
+  }

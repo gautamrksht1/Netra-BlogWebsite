@@ -1,0 +1,2 @@
+li { background: #eefbfd; }
+li:nth-child(odd) { background: hsl(233, 57%, 97%); }
